@@ -1,0 +1,15 @@
+ 
+ i = 1
+ num = i
+ 
+
+ for (i =1; i < num.length; i++){
+ num[i] = num[i] + num[i-1];
+ }
+ return num;
+
+
+
+
+
+
