@@ -1,0 +1,11 @@
+sum = 0 
+number_of_inputs = INPUT()
+
+For 1,2,......number_of_inputs
+
+number = INPUT
+
+sum = n ^ 2
+
+return sum 
+END
