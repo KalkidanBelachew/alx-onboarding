@@ -1,0 +1,29 @@
+
+
+   Int a,b,c
+   
+read(*,*)  a, b, c
+
+    If (a < b) here then
+
+    If (a < c) then : a the smallest
+
+    If (b < c) then : a < b < c
+ write(*,*)  a, b, c
+    else 
+    write(*,*)  a, c, b
+         end if
+      else                         
+         write(*,*) c, a, b
+      end if
+   else                           
+      If (b < c) then                : b the smallest
+         If (a < c) then             : b <= a < c
+            write(*,*)  b, a, c
+         else                        : b < c <= a
+            write(*,*)  b, c, a
+         end if
+      else                            : c <= b <= a
+         write(*,*)  c, b, a
+      end if
+   END 
